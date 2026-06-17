@@ -1,9 +1,10 @@
 name: krishnarestart
 
-on: workflow_dispatch
+on: push
 
 jobs:
   build: 
     runs-on: ubuntu-latest
     steps:
       - run: echo "Build completed"
+      - run: echo "verygood learning"
