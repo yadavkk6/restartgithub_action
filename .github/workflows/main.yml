@@ -1,6 +1,10 @@
 name: krishnarestart
 
-on: push
+on: 
+  push:
+    branches:
+      - feature
+      - main
 
 jobs:
   build: 
